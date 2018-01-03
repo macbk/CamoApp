@@ -1,0 +1,11 @@
+.btn-outline-danger {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.btn-outline-danger.btn-list { display: none; }
+.btn-outline-danger:focus { outline: none; }
+.btn-outline-danger:active { transform: translateY(2px); }
+
+tr:hover .btn-outline-danger.btn-list { display: inline-block; }
